@@ -63,7 +63,7 @@ export const LoginPage = () => {
             <TextField
               label="Password"
               type="password"
-              placeholder="Create a password"
+              placeholder="Your password"
               fullWidth
               {...register("password", { required: true, minLength: 6 })}
               error={
